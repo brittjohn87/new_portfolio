@@ -5,7 +5,7 @@
   
   <title>Brittany Johnson</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Bangers|Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bangers|Source+Sans+Pro|Yellowtail" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
@@ -36,9 +36,9 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="nav_text"><a href="#">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">In The Community</a></li>
+        <li class="nav_text"><a href="#about_me">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#community">In The Community</a></li>
         <li><a href="http://bjs-resume.bitballoon.com/" target="_blank">Resume</a></li>
         <li><a class="fa fa-github fa-2x" href="https://github.com/brittjohn87" target="_blank"></a></li>
         <li><a class="fa fa-linkedin fa-2x" href="https://www.linkedin.com/in/brittany-johnson-8235ab5b/" target="_blank"></a></li>
@@ -48,6 +48,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!-- End of Navbar -->
+
 
 <div class="jumbotron">
   <div class="container">
@@ -71,11 +72,15 @@
         <br />
         <br />
         <br />
-        <a class="btn btn-info btn-lg" href="#">I'm Available For Hire</a>
       </div>
     </div>
   </div>
 </div>
+
+
+<a class="btn btn-info btn-lg" href="http://bjs-resume.bitballoon.com/" target="_blank">I'm Available For Hire</a>
+
+
 
   <center><div class="content">
     <h1>Welcome, I'm Brittany. I design & develop <span class="in" id="word-switcher">
@@ -87,10 +92,14 @@
 <br />
 
 
-<section class="about_me">
+<section class="about_me" id="about_me">
   <br />
   <br />
   <div class="container">
+    <br />
+    <center><h1>Who am I?</> </h1></center>
+    <br />
+    <br />
     <div class="row">
       <div class="col-md-6">
         <img class="pic" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_7133.jpg">
@@ -98,19 +107,14 @@
           <div class="col-md-6">
             <h1>Have no fear, Brittany is here...</h1>
             <br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
             proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p class="quote">"You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it.” -Maya Angelou</p>
             <br />
             <br />
           </div>
@@ -119,53 +123,119 @@
   </div>
 </section>
 
-<section class="portfolio">
+<hr />
+
+<section class="portfolio" id="portfolio">
   <br />
   <br />
   <div class="container">
     <center><h1>Projects</h1></center>
+    <br />
     <div class="row">
       <div class="col-md-4">
         <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_0257.PNG">
         <center><h1>PhreshKickz</h1></center>
+        <br />
+        <!-- Icon Box -->
+      <div class="box">             
+        <div class="box-icon">
+          <div class="image"><i class="fa fa-database"></i></div>
+          <div class="info">
+            <br />
+            <h3 class="title">Developed & Designed Using:</h3>
+            <br />
+            <ul class="text">
+              <li>HTML/CSS</li>
+              <li>Bootstrap</li>
+              <li>Google Maps API</li>
+              <li>Ruby on Rails</li>
+            </ul>
+            <br />
+            <a class="btn btn-primary" href="https://phreshkickz.herokuapp.com/" target="_blank">View Site</a>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div> 
+        <!-- End of Icon Box -->
       </div>
       <div class="col-md-4">
         <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_0255.PNG">
         <center><h1>Where's The Bus?</h1></center>
+        <br />
+      <!-- Icon Box -->
+      <div class="box">             
+        <div class="box-icon">
+          <div class="image"><i class="fa fa-microchip"></i></div>
+          <div class="info">
+            <br />
+            <h3 class="title">Designed & Developed Using:</h3>
+            <br />
+            <ul class="text">
+              <li>HTML/CSS</li>
+              <li>Bootstrap</li>
+              <li>Javascript/jQuery</li>
+              <li>ATL Marta API</li>
+              <li>Google Maps API</li>
+              <li>Ruby on Rails</li>
+            </ul>
+            <br />
+            <a class="btn btn-primary" href="https://marta-busapp.herokuapp.com/" target="_blank">View Site</a>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div> 
+      <!-- End of Icon Box -->
       </div>
       <div class="col-md-4">
         <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_0251.PNG">
         <center><h1>Magic 8 Ball</h1></center>
         <br />
+      <!-- Icon Box -->
+      <div class="box">             
+        <div class="box-icon">
+          <div class="image"><i class="fa fa-code"></i></div>
+          <div class="info">
+            <br />
+            <h3 class="title">Developed & Designed Using:</h3>
+            <br />
+            <ul class="text">
+              <li>HTML/CSS</li>
+              <li>Bootstrap</li>
+              <li>Javascript/jQuery</li>
+              <li>Google Fonts</li>
+            </ul>
+            <br />
+            <a class="btn btn-primary" href="http://bjs-magic8ball.bitballoon.com/" target="_blank">View Site</a>
+          </div>
+        </div>
+        <div class="space"></div>
+      </div> 
+    <!-- End of Icon Box -->
+        <br />
         <br />
       </div>
     </div>
   </div>
 </section>
 
-<section class="community">
+<hr>
+
+<section class="community" id="community">
   <br />
   <br />
   <div class="container">
+    <center><h1>Giving Back!</h1></center>
+    <br />
+    <br />
     <div class="row">
       <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/304F5280-64DA-4F90-BFF3-2FDDADFE21CA.JPG">
       </div>
       <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/B117412C-5D89-45DE-8A13-9EAD57093722.JPG">
       </div>
       <div class="col-md-4">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -178,14 +248,23 @@
   </div>
 </section>
 
+<br />
+<br />
+<br />
 
 
 
 
 
+
+
+
+<center><h4>Site Developed & Designed by Me &copy</h4></center>
+<br />
+<br />
 <!-- Java Script Adds -->
-  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-  <script  src="js/index.js"></script>
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script  src="js/index.js"></script>
 
 </body>
 </html>
