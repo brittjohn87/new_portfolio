@@ -70,6 +70,11 @@ nav.navbar.navbar-default.navbar-fixed-top {
 
 .text {
   font-family: 'Source Sans Pro', cursive;
+  text-align: justify;
+}
+
+.text1 {
+  font-family: 'Source Sans Pro', cursive;
 }
 
 .quote {
@@ -108,10 +113,10 @@ hr {
 }
 
 
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+/*@import url(http://weloveiconfonts.com/api/?family=entypo);
 @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
 @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
-@import "https://fonts.googleapis.com/css?family=Roboto:400,500";
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500";*/
 
 .box-icon {
   text-align: center;
@@ -160,7 +165,7 @@ hr {
 }*/
 
 .box-icon > .info > h3.title {
-  font-family: "Roboto", sans-serif !important;
+  font-family: 'Bangers', cursive;
   font-size: 16px;
   color: #222;
   font-weight: 500;
