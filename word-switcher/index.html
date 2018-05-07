@@ -13,6 +13,8 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -90,10 +92,10 @@
 
 <section class="about_me" id="about_me">
   <div class="container">
-    <div class="row">
+    <!-- <div class="row"> -->
       <center><div class="col-md-6">
         <br />
-        <img class="pic" src="images/IMG_7133.jpg">
+        <img class="pic animated slideInLeft" src="images/IMG_7133.jpg">
         </div>
           <div class="col-md-6">
             <h1 class="animated slideInRight">Have no fear, Brittany is here...</h1>
@@ -112,12 +114,13 @@
             </div>
           </div></center>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 </section>
 
 <section class="skills">
-  <center><h1 style="color: white;">Skills:</h1></center>
+  <center><h1 style="color: white; text-decoration: underline;">Skills</h1></center>
+  <br />
   <br />
   <center><div>
     <i class="icons devicon-html5-plain-wordmark"></i>
@@ -139,8 +142,6 @@
 </section>
 
 <section class="portfolio" id="portfolio">
-  <br />
-  <br />
   <div class="container">
     <center><h1>Projects</h1></center>
     <br />
@@ -149,155 +150,153 @@
         <center><img class="pic2 img-responsive" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_0257.PNG"></center>
         <center><h1>PhreshKickz</h1></center>
         <br />
-        <!-- Icon Box -->
-      <div class="box">             
-        <div class="box-icon">
-          <div class="image"><i class="fa fa-database"></i></div>
-          <div class="info">
-            <br />
-            <h3 class="title">Developed & Designed Using:</h3>
-            <br />
-            <ul class="text1">
-              <li>HTML/CSS</li>
-              <li>Bootstrap</li>
-              <li>Javascript/jQuery</li>
-              <li>Google Maps API</li>
-              <li>Ruby on Rails</li>
-            </ul>
-            <br />
-            <br />
-            <a class="btn btn-primary" href="https://phreshkickz.herokuapp.com/" target="_blank">View Site</a>
+        <center><button class="btn btn-primary" data-toggle="modal" data-target="#phreshkickzModal">Learn More</button></center>
+
+        <!-- Modal Start -->
+        <div class="modal fade" id="phreshkickzModal" tabindex="-1" role="dialog" aria-labelledby="phreshkickzModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <center><h1 class="modal-title" id="phreshkickzModalLabel">PhreshKickz</h1></center>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-sm-6">
+                 <p class="text">"Phreshkickz" is an online sneaker consignment shop for “sneakerheadz” to buy and/or sell their most prized possessions. Users are asked to create an account/login before getting started; however feel free to browse if you aren't quite ready to commit.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img class="picture" src="images/phreshkickz.jpg">
+                  <br />
+                  <i class="pictureIcon devicon-html5-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-css3-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-jquery-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-ruby-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-rails-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-postgresql-plain-wordmark"></i>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="http://phreshkickz.herokuapp.com" target="_blank"><button type="button" class="btn btn-primary">Visit Live Site</button></a>
+            </div>
           </div>
         </div>
-        <div class="space"></div>
-      </div> 
-        <!-- End of Icon Box -->
+      </div>
       </div>
       <div class="col-sm-4">
         <center><img class="pic2 img-responsive" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_0255.PNG"></center>
         <center><h1>Where's The Bus?</h1></center>
         <br />
-      <!-- Icon Box -->
-      <div class="box">             
-        <div class="box-icon">
-          <div class="image"><i class="fa fa-microchip"></i></div>
-          <div class="info">
-            <br />
-            <h3 class="title">Developed & Designed Using:</h3>
-            <br />
-            <ul class="text1">
-              <li>HTML/CSS</li>
-              <li>Bootstrap</li>
-              <li>Javascript/jQuery</li>
-              <li>ATL Marta API</li>
-              <li>Google Maps API</li>
-              <li>Ruby on Rails</li>
-            </ul>
-            <br />
-            <a class="btn btn-primary" href="https://marta-busapp.herokuapp.com/" target="_blank">View Site</a>
+        <center><button class="btn btn-primary" data-toggle="modal" data-target="#busModal">Learn More</button></center>
+
+        <!-- Modal Start -->
+        <div class="modal fade" id="busModal" tabindex="-1" role="dialog" aria-labelledby="busModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <center><h1 class="modal-title" id="busModalLabel">Where's The Bus!?</h1></center>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="text">"Where's the Bus!?"" is an online application that allows users in Georgia to locate the nearest Marta Bus. Users are asked to input their exact address or cross streets and moments later a map is displayed to show the nearest bus arriving. If there aren't any busses available, users will receive a fun lighthearted message informing them of other options.</p>
+                </div>
+                <div class="col-md-6">
+                  <img class="picture" src="images/Wheresthebus.png">
+                  <br />
+                  <i class="pictureIcon devicon-html5-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-css3-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-jquery-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-ruby-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-rails-plain-wordmark"></i>
+                  <i class="pictureIcon devicon-postgresql-plain-wordmark"></i>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="http://marta-busapp.herokuapp.com" target="_blank"><button type="button" class="btn btn-primary">Visit Live Site</button></a>
+            </div>
           </div>
         </div>
-        <div class="space"></div>
-      </div> 
-      <!-- End of Icon Box -->
+      </div>
       </div>
       <div class="col-sm-4">
         <center><img class="pic2 img-responsive" src="https://s3.amazonaws.com/portfolio-pics-1/IMG_0251.PNG"></center>
         <center><h1>Magic 8 Ball</h1></center>
         <br />
-      <!-- Icon Box -->
-      <div class="box">             
-        <div class="box-icon">
-          <div class="image"><i class="fa fa-code"></i></div>
-          <div class="info">
-            <br />
-            <h3 class="title">Developed & Designed Using:</h3>
-            <br />
-            <ul class="text1">
-              <li>HTML/CSS</li>
-              <li>Bootstrap</li>
-              <li>Javascript/jQuery</li>
-              <li>Google Fonts</li>
-            </ul>
-            <br />
-            <br />
-            <br />
-            <a class="btn btn-primary" href="http://bjs-magic8ball.bitballoon.com/" target="_blank">View Site</a>
+        <center><button class="btn btn-primary" data-toggle="modal" data-target="#8ballModal">Learn More</button></center>
+      
+        <!-- Modal Start -->
+        <div class="modal fade" id="8ballModal" tabindex="-1" role="dialog" aria-labelledby="8ballModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <center><h1 class="modal-title" id="8ballModalLabel">Magic 8 Ball</h1></center>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-sm-6">
+                  <br />
+                  <p class="text">"Magic 8 Ball" is a fun game for all ages. Once the user clicks on the 8 Ball they'll be asked to input their question. From there user beware, because you may or may not like the resposne that 8 Ball has to offer.</p>
+                </div>
+                <div class="col-sm-6">
+                  <img class="picture" src="images/8ball.png">
+                  <br />
+                  <i class="pictureIcon2 devicon-html5-plain-wordmark"></i>
+                  <i class="pictureIcon2 devicon-css3-plain-wordmark"></i>
+                  <i class="pictureIcon2 devicon-jquery-plain-wordmark"></i>
+                  <i class="pictureIcon2 devicon-javascript-plain"></i>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <a href="http://bjs-magic8ball.bitballoon.com" target="_blank"><button type="button" class="btn btn-primary">Visit Live Site</button></a>
+            </div>
           </div>
         </div>
-        <div class="space"></div>
-      </div> 
-    <!-- End of Icon Box -->
-        <br />
-        <br />
+      </div>
       </div>
     </div>
   </div>
 </section>
 
-<hr>
-
-<section class="community" id="community">
-  <br />
-  <br />
+<section class="contact">
   <div class="container">
-    <center><h1>Giving Back!</h1></center>
-    <br />
-    <br />
-    <div class="row">
-      <center><div class="col-md-4">
-        <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/304F5280-64DA-4F90-BFF3-2FDDADFE21CA.JPG">
-      </div>
-      <div class="col-md-4">
-        <img class="pic2" src="https://s3.amazonaws.com/portfolio-pics-1/B117412C-5D89-45DE-8A13-9EAD57093722.JPG">
-      </div>
-      <div class="col-md-4">
-        <p class="text">There is nothing more fulfilling, than being able to share my knowledge with others. During my studies at Tech Talent South, I volunteered to instruct the Kid's Code program and serve as a Teaching Assistant for the Full-Time Code Immersion cohort after mine. In the Kid's Code program, I was able to teach children ages 8-12, the basics of HTML, CSS, and Ruby. As a Teaching Assistant, I was able to assist students with any questions regarding languages and frameworks such as, HTML, CSS, Bootstrap, JavaScript, Ruby, and Ruby on Rails.</p>
-        <br />
-        <br />
-      </div>
-    </div>
-  </div></center>
-</section>
-
-<br />
-<br />
-<br />
-
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+    <center><h1 style="color: white;">Contact Me</h1>
+    <h3 class="text" style="color: white;">I'd love to connect with you!</h3></center>
+    <div class="connections">
+      <a class="fas fa-envelope fa-5x" href="mailto:brittanytjohnson@icloud.com" target="_blank"></a>
+      <a class="fab fa-github fa-5x" href="https://github.com/brittjohn87" target="_blank"></a>
+      <a class="fab fa-linkedin fa-5x" href="https://www.linkedin.com/in/brittanytjohnson/" target="_blank"></a>
+      <a class="fas fa-file-alt fa-5x" href="http://bjs-resume.bitballoon.com/" target="_blank"></a>
     </div>
   </div>
-</div>
+</section>
+
+<section class="end">
+  <center><h4 class="quote">Site Developed & Designed by Brittany Johnson &copy</h4></center>
+</section>
 
 
 
 
 
 
-<center><h4 class="quote">Site Developed & Designed by Me &copy</h4></center>
-<br />
-<br />
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+
 <!-- Java Script Adds -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script  src="js/index.js"></script>

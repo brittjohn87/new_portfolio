@@ -7,8 +7,43 @@ nav.navbar.navbar-default.navbar-fixed-top {
   color: #00c2fb;
 }
 
+.pictureIcon {
+  font-size: 40px;
+  text-align: center;
+}
+
+.pictureIcon2 {
+  font-size: 40px;
+  text-align: center;
+  padding-right: 23px;
+}
+
+a:link, a:hover, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.connections {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.picture {
+  height: 150px;
+  width: auto;
+}
+
 .about_me {
   padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.portfolio {
+  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -17,6 +52,18 @@ nav.navbar.navbar-default.navbar-fixed-top {
   padding-top: 30px;
   padding-bottom: 60px;
   color: white;
+}
+
+.end {
+  padding-top: 20px;
+  background-color: #639FAB;
+  padding-bottom: 20px;
+}
+
+.contact {
+  background-color: #3E78B2;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 .exclamation {
